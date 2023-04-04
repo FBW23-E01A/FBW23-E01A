@@ -9,18 +9,22 @@ body {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+nav,
 main,
 header {
   margin: 1rem;
 }
 
 a {
-  display: block;
   color: black;
+}
+
+.links a {
+  display: block;
   text-decoration: none;
 }
 
-a:hover {
+.links a:hover {
   text-decoration: underline;
 }
 
@@ -43,4 +47,8 @@ p {
 .email {
   display: inline;
   text-decoration: underline;
+}
+
+ol {
+  margin-left: 1.5rem;
 }
